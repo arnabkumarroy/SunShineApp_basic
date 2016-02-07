@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -22,7 +24,7 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView= inflater.inflate(R.layout.fragment_main, container, false);
 
-        R.layout.fragment_main
+
         ArrayList<String> forcastArrayList=new ArrayList<String>();
         forcastArrayList.add("Today - Sunny - 88/63");
         forcastArrayList.add("Tomorrow - Foggy - 70/46");
@@ -31,8 +33,7 @@ public class MainActivityFragment extends Fragment {
         forcastArrayList.add("Fri - Foggy - 70/46");
         forcastArrayList.add("Sat - Sunny - 76/68");
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),R.layout.listView_forcast,R.id.list_item_forcast_textView,forcastArrayList);
-
+        listView.setAdapter(adapter);
         return rootView;
     }
 }
