@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.0_c1f084aca6bd102eb7cdb9fe5edf8a3f78734573.jar" />
-    </item>
-    <item
         jar="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,18 +9,25 @@
         <dex dex="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_96e324fb3a9c609c4021a28ffd633ce44e0801f9.jar" />
     </item>
     <item
-        jar="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\pre-dexed\debug\com.android.support-design-22.2.0_edcdf78445974f22b622122d359843516f9f715f.jar" />
-    </item>
-    <item
         jar="C:\Users\ARNAB\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
         <dex dex="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_c8766586a812b385da5362f26f1a8c35e5040ef7.jar" />
+    </item>
+    <item
+        jar="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.0_c1f084aca6bd102eb7cdb9fe5edf8a3f78734573.jar" />
+    </item>
+    <item
+        jar="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\pre-dexed\debug\com.android.support-design-22.2.0_edcdf78445974f22b622122d359843516f9f715f.jar" />
     </item>
     <item
         jar="C:\Users\ARNAB\AndroidStudioProjects\SunShineApp01\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"

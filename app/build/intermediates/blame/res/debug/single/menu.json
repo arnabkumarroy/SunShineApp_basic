@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\ARNAB\\AndroidStudioProjects\\SunShineApp01\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\ARNAB\\AndroidStudioProjects\\SunShineApp01\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARNAB\\AndroidStudioProjects\\SunShineApp01\\app\\build\\intermediates\\res\\merged\\debug\\menu\\forecastfragment.xml",
+        "source": "C:\\Users\\ARNAB\\AndroidStudioProjects\\SunShineApp01\\app\\src\\main\\res\\menu\\forecastfragment.xml"
     }
 ]
