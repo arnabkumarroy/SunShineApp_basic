@@ -31,7 +31,7 @@ public class FetchWeatherTask extends AsyncTask<String, Void, String[]> {
         BufferedReader reader = null;
 
         // Will contain the raw JSON response as a string.
-        String forecastJsonStr = null;
+        String forecastJsonStr;
         String[] formattedWeatherData=null;
         try
 

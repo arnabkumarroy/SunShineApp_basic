@@ -1,26 +1,14 @@
 package app.project.nanodrgree.android.udacity.com.sunshineapp01;
 
-import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -42,12 +30,12 @@ public class ForecastFragment extends Fragment {
         forcastArrayList.add("Thurs - Rainy - 64/51");
         forcastArrayList.add("Fri - Foggy - 70/46");
         forcastArrayList.add("Sat - Sunny - 76/68");
-        /*FetchWeatherTask fetchWeatherTaskObj=new FetchWeatherTask();
-        fetchWeatherTaskObj.onPostExecute();*/
+
         adapter = new ArrayAdapter<String>(getActivity(),R.layout.listview_layout,R.id.list_item_forcast_textView,forcastArrayList);
         ListView listView = (ListView) rootView.findViewById(R.id.listView_forecast);
         listView.setAdapter(adapter);
-
+        FetchWeatherTask fetchWeatherTaskObj=new FetchWeatherTask();
+        fetchWeatherTaskObj.execute("45110","JSON","metric","7");
         return rootView;
     }
 
@@ -55,7 +43,7 @@ public class ForecastFragment extends Fragment {
     /**
      * Created by ARNAB on 2/9/2016.
      */
-    public class FetchWeatherTask extends AsyncTask<String, Void, String[]> {
+    /*public class FetchWeatherTask extends AsyncTask<String, Void, String[]> {
 
         private final String Log_Tag=FetchWeatherTask.class.getSimpleName();
         ArrayAdapter<String> adapter=null;
@@ -184,6 +172,6 @@ public class ForecastFragment extends Fragment {
 
             return builder.build().toString();
         }
-    }
+    }*/
 
 }
